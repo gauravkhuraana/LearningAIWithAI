@@ -1,0 +1,14 @@
+# TOON Format Video Demo Requirements
+# Install with: pip install -r requirements.txt
+
+# TOON format library (install from GitHub)
+git+https://github.com/toon-format/toon-python.git
+
+# Azure OpenAI
+openai>=1.0.0
+
+# Token counting
+tiktoken>=0.5.0
+
+# Optional: for better JSON formatting
+python-dotenv>=1.0.0
