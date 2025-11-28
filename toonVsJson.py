@@ -87,10 +87,10 @@ def demo_conversion():
         
         # Show formats
         print("\n📄 JSON (compact):")
-        print(json_compact[:150] + "..." if len(json_compact) > 150 else json_compact)
+        print(json_compact)
         
         print("\n🎨 TOON:")
-        print(toon_str[:150] + "..." if len(toon_str) > 150 else toon_str)
+        print(toon_str)
         
         # Show comparison
         print(f"\n📊 Comparison:")
